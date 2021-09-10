@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Pintando Parede</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="components/style.css">
+    <!-- Javascript -->
+    <script src="components/main.js"></script>
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="title">
+            <h1>Pintando Parede</h1>
+        </div>
+        <form>
+            <div class="form-group">
+              <label for="">Largura da Parede</label>
+              <input type="text"
+                class="form-control" name="larguraparede" id="larguraparede" aria-describedby="helpId" placeholder="">
+            </div>
+
+            <div class="form-group">
+              <label for="">Altura da Parede</label>
+              <input type="text"
+                class="form-control" name="alturaparede" id="alturaparede" aria-describedby="helpId" placeholder="">
+            </div>
+
+            <div class="form-group">
+              <label for="">Número de janelas</label>
+              <select class="form-control" name="qtdjanelas" id="qtdjanelas">
+                <option desable>Escolha...</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+                <label for="">Número de portas</label>
+                <select class="form-control" name="qtdportas" id="qtdportas">
+                  <option desable>Escolha...</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+
+            <button type="submit" onclick="calcula()" class="btn btn-primary">Calcular</button>
+        </form>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
