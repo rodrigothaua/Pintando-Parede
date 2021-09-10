@@ -13,4 +13,6 @@
 
 - Calculo Total
 
+- Enviar convite à colaborador
+
 Obs: Projeto ainda não finalizado
